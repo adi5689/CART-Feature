@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #ff9900, #7300ff, #069efc);
+    background: linear-gradient(to right, #000000,#321d4c, #722ec5, #031018);
   }
   
   .cart-section {
     border: 1px solid #ccc;
+    color: white;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(0,0,0,.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
@@ -56,11 +57,15 @@
   }
   
   .checkout-button {
-    background:#007bff ;
+    background:#007bff;
     color: white;
     border: none;
     border-radius:5px;
     padding: 5px 10px;
     margin: 0 5px;
     cursor: pointer;
+  }
+  .checkout-button:hover {
+    background:#25fe4d ;
+    color:black;
   }
