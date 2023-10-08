@@ -3,12 +3,13 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #ff9900, #7300ff, #069efc);
+    background: linear-gradient(to right, #000000,#321d4c, #722ec5, #031018);
   }
    .bill-section {
     border: 1px solid #ccc;
     padding: 20px;
-    background-color: #fff;
+    color: white;
+    background-color: rgba(0,0,0,.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
@@ -24,7 +25,7 @@
   .bill-items {
     border: 1px solid #ccc;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f918;
     margin-bottom: 20px;
   }
   
@@ -38,6 +39,7 @@
   
   .bill-item-name {
     font-weight: bold;
+    color: white;
   }
 
   .bill-item-quantity {
@@ -47,17 +49,18 @@
   
   .bill-item-quantity,
   .bill-item-price {
-    color: #555;
+    color: white;
   }
   
   .bill-total {
     font-weight: bold;
     text-align: right;
     margin-top: 10px;
+    color: white;
   }
   
   .bill-empty {
     text-align: center;
-    color: #777;
+    color: white;
   }
   
